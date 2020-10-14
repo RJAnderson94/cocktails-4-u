@@ -7,7 +7,7 @@ body {
     background: linear-gradient(90deg,#ff3838,#fc9423);
 }
 /*------------------------ Header */
-section {
+.header {
     position: relative;
     width: 100%;
     height: 80vh;
@@ -15,9 +15,10 @@ section {
     justify-content: center;
     align-items: center;
     overflow: hidden;
+    margin-bottom: 1rem;
 }
 
-section:before {
+.header:before {
     content: '';
     position: absolute;
     top: 0;
@@ -29,7 +30,7 @@ section:before {
 
 }
 
-section .content {
+.header .content {
     position: relative;
     z-index: 1;
     margin: 0 auto;
@@ -37,14 +38,74 @@ section .content {
     text-align: center;
 }
 
-section .content h1 {
+.header .content h1 {
     margin: 0;
     padding: 0;
     color: #ff3838;
-    font-size: 6em;
+    font-size: 8em;
 }
 
-section .content p {
+.header .content p {
     color: #fc9423;
-    font-size: 2em;
+    font-size: 3em;
+}
+
+/*------------------------ Cocktail Cards */
+
+.cocktail-col {
+    margin: 0 auto;
+
+}
+
+.cocktail-card {
+    width: 22rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.cocktail-card h5 {
+    color: #ff3838;
+    font-size: 3rem;
+}
+
+.cocktail-card p {
+    color: #fc9423;
+    font-size: 1.8rem;
+}
+
+.cocktail-button {
+    color: #fff;
+    background-color: #fc9423;
+}
+
+.cocktail-button:hover {
+    color: #fff;
+    background-color: #ff3838;
+}
+
+/*------------------------ Footer */
+
+footer {
+    height: 5rem;
+}
+
+.footer-header {
+    margin-top: 2rem;
+    font-size: 2rem;
+    text-align: center;
+    color: #ffffff;
+}
+
+.list-inline {
+    text-align: center;
+}
+
+.social-icons li a i{
+    color: #ffffff;
+    font-size: 2rem;
+    margin-top: 0.7rem;
+}
+
+.social-icons li a i:hover {
+    color: #ff3838;
 }
