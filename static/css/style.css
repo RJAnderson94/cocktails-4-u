@@ -6,6 +6,11 @@ body {
     font-family: 'Berkshire Swash', cursive;
     background: linear-gradient(90deg,#ff3838,#fc9423);
 }
+
+.container {
+    justify-content: center;
+    align-items: center;
+}
 /*------------------------ Index Header */
 .header {
     position: relative;
@@ -107,6 +112,19 @@ button {
     text-decoration: none;
 }
 
+.form-header {
+    color: #ffffff;
+    font-size: 2.6em;
+}
+
+#addbutton {
+    border-style: none;
+    background: #fff;
+    color: #ff3838;
+    font-size: 1.8em;
+    margin-top: 1.7em;
+}
+}
 /*------------------------ Cocktail Cards */
 
 .cocktail-col {

@@ -3,9 +3,68 @@
 <section class="header">
   <div class="content">
     <h1 id="cocktail-header">Add a Cocktail</h1>
-    <p id="cocktail-desc">Add your own recipe below to add it to our cocktail menu <i class="fas fa-cocktail"></i></p>
-    <a href="{{ url_for('index') }}" id="back-home"><i class="fas fa-arrow-left"></i> Back to Homepage</a>
+    <p id="cocktail-desc">
+      Add your own recipe below to add it to our cocktail menu
+      <i class="fas fa-cocktail"></i>
+    </p>
+    <a href="{{ url_for('index') }}" id="back-home"
+      ><i class="fas fa-arrow-left"></i> Back to Homepage</a
+    >
   </div>
 </section>
+
+<div class="container">
+  <div class="form-header"> Name of the Cocktail: <input type="text" class="form-control" placeholder="Insert Cocktial Name Here"/>
+  </div>
+  
+  <div class="row">
+    <div class="col-md-6">
+    <div class="form-header"> Ingredients:</div>
+        <form>
+            <div class="form-row">
+            <div class="col-7">
+                <input type="text" class="form-control" placeholder="Ingredient" />
+            </div>
+            <div class="col">
+                <input type="text" class="form-control" placeholder="Measure in ml" />
+            </div>
+            </div>
+        </form>
+    </div>
+    <div class="col-md-6">
+    <div class="form-header"> Method:</div>
+        <form>
+            <div class="form-row">
+            <div class="col">
+                <input type="text" class="form-control" placeholder="Insert Method Here" />
+            </div>
+            </div>
+        </form>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-6">
+    <div class="form-header"> Equipment Needed:</div>
+        <form>
+            <div class="form-row">
+            <div class="col">
+                <input type="text" class="form-control" placeholder="Equipment" />
+            </div>
+            </div>
+        </form>
+    </div>
+    <div class="col-md-6">
+    <div class="form-header"> Preferred Glass:</div>
+        <form>
+            <div class="form-row">
+            <div class="col">
+                <input type="text" class="form-control" placeholder="Preferred Glass" />
+            </div>
+            </div>
+        </form>
+    </div>
+  </div>
+  <button type="submit" id="addbutton"> Add Cocktail </button>
+</div>
 
 {% endblock %}
