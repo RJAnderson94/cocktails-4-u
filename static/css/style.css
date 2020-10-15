@@ -96,6 +96,17 @@ button {
     font-size: 3em;
 }
 
+#back-home {
+    color: #ff3838;
+    text-decoration: none;
+    font-size: 1.8em;
+}
+
+#back-home:hover {
+    color: #fc9423;
+    text-decoration: none;
+}
+
 /*------------------------ Cocktail Cards */
 
 .cocktail-col {
