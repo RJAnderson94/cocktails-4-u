@@ -66,6 +66,10 @@ button {
     font-size: 1.8em;
 }
 
+button:hover {
+    color: #fc9423;
+}
+
 .header-break {
     color: #fc9423;
     font-size: 1.8em;
