@@ -7,10 +7,7 @@ body {
     background: linear-gradient(90deg,#ff3838,#fc9423);
 }
 
-.container {
-    justify-content: center;
-    align-items: center;
-}
+
 /*------------------------ Index Header */
 .header {
     position: relative;
@@ -123,13 +120,17 @@ button {
     color: #ff3838;
     font-size: 1.8em;
     margin-top: 1.7em;
+    justify-content: center;
 }
+
+#addbutton:hover {
+    background: #f1f1f1;
+    color: #fc9423;
 }
 /*------------------------ Cocktail Cards */
 
 .cocktail-col {
     margin: 0 auto;
-
 }
 
 .cocktail-card {
