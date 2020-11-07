@@ -19,6 +19,11 @@ def cocktail_page():
     return render_template('cocktailpage.html')
 
 
+@app.route('/enquiry_page')
+def enquiry_page():
+    return render_template('enquiry.html')
+
+
 if __name__ == '__main__':
     app.run(host=os.environ.get('IP'), port=int(
         os.environ.get('PORT')), debug=True)

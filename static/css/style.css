@@ -165,6 +165,14 @@ footer {
     color: #ffffff;
 }
 
+.footer-header a{
+    color: #ffffff
+}
+
+.footer-header a:hover{
+    color: #ff3838;
+}
+
 .list-inline {
     text-align: center;
 }
