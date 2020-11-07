@@ -7,6 +7,25 @@
     <p id="cocktail-desc">Please fill in the enquiry form below and one of our team will be happy to help. <i class="fas fa-cocktail"></i></p>
     <a href="{{ url_for('index') }}" id="back-home"><i class="fas fa-arrow-left"></i> Back to Homepage</a>
   </div>
-</section>
+</section> 
+
+<!--Enquiry Form-->
+<section class="enquiry-section container">
+        <h2 class="enquiry-header">Enquiry Form</h2>
+        <div class="center-form">
+            <form onsubmit="return sendMail(this);">
+                <input type="text" name="name" id="fullname" class="form-control" placeholder="Full Name" required />
+                <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email Address" required />
+                <textarea rows="7" name="enquiry" id="enquiry" class="form-control" placeholder="Please Enter Enquiry Here" required></textarea>
+                <div class="form-row text-center">
+                    <div class="col">
+                        <button type="submit" class="btn btn-secondary">
+                            Send Enquiry
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
 
 {% endblock %}
