@@ -48,7 +48,7 @@ body {
     color: #ff3838;
 }
 
-button {
+.searchbutton {
     border-style: none;
     background: #fff;
     color: #ff3838;
@@ -113,7 +113,6 @@ button:hover {
     color: #ff3838;
     font-size: 1.8em;
     margin-top: 1.7em;
-    justify-content: center;
 }
 
 #addbutton:hover {
@@ -122,14 +121,11 @@ button:hover {
 }
 /*------------------------ Cocktail Cards */
 
-.cocktail-col {
-    margin: 0 auto;
-}
-
 .cocktail-card {
     width: 22rem;
     justify-content: center;
     align-items: center;
+    margin: 0 auto;
 }
 
 .cocktail-card h5 {
@@ -231,7 +227,7 @@ footer {
 
 @media screen and (max-width: 768px) {
     .header {
-        height: 30vh;
+        height: 32vh;
     }
 }
 
@@ -265,4 +261,144 @@ footer {
     .form-header {
     font-size: 2.1em;
 }
+}
+
+/*------------------------ Mobile Resp - 540px */
+
+@media screen and (max-width: 540px) {
+    .header {
+        height: 30vh;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .header .content h1 {
+        font-size: 5em;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .header .content p {
+        font-size: 1.4em;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    #cocktail-header {
+        font-size: 5em;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    #cocktail-desc {
+        font-size: 1.4em;
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .form-header, .enquiry-header, .footer-header {
+    font-size: 1.4em;
+}
+}
+
+@media screen and (max-width: 540px) {
+    .header-break {
+    display: none;
+}
+}
+
+@media screen and (max-width: 540px) {
+    .searchbar {
+        font-size:1.4em;
+        width: 88%;
+        margin: 0 auto;
+        padding-right: 0.2em;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .searchbutton  {
+        font-size:1.4em;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .add-cocktail-link {
+        font-size: 1.4em;
+        margin: 0 auto;
+}
+
+/* ------------------ Mobile Responsive - 414px */
+
+@media screen and (max-width: 414px) {
+    .header {
+        height: 30vh;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .header .content h1 {
+        font-size: 4em;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .header .content p {
+        font-size: 1.15em;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    #cocktail-header {
+        font-size: 4em;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    #cocktail-desc {
+        font-size: 1.15em;
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .form-header, .enquiry-header, .footer-header{
+    font-size: 1.2em;
+}
+}
+
+@media screen and (max-width: 414px) {
+    .header-break {
+    display: none;
+}
+}
+
+@media screen and (max-width: 414px) {
+    .searchbar {
+        font-size:1.4em;
+        width: 88%;
+        margin: 0 auto;
+        padding-right: 0.2em;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .searchbutton  {
+        font-size:1.4em;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .add-cocktail-link {
+        font-size: 1.4em;
+        margin: 0 auto;
+}
+
+@media screen and (max-width: 414px) {
+    #footer {
+        margin: 0.2em;
+    }
 }
