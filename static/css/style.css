@@ -402,3 +402,114 @@ footer {
         margin: 0.2em;
     }
 }
+
+
+@media screen and (max-width: 414px) {
+    .cocktail-card {
+        width: 82%;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .card-title {
+        font-size: 1.4em;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .card-text {
+        font-size: 0.7em;
+    }
+}
+
+
+/* ------------------ Mobile Responsive - 320px */
+
+@media screen and (max-width: 320px) {
+    .header {
+        height: 27vh;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .header .content h1 {
+        font-size: 2.8em;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .header .content p {
+        font-size: 0.8em;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    #cocktail-header {
+        font-size: 2.8em;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    #cocktail-desc {
+        font-size: 0.8em;
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .form-header, .enquiry-header, .footer-header{
+    font-size: 0.85em;
+}
+}
+
+@media screen and (max-width: 320px) {
+    .header-break {
+    display: none;
+}
+}
+
+@media screen and (max-width: 320px) {
+    .searchbar {
+        font-size:1em;
+        width: 88%;
+        margin: 0 auto;
+        padding-right: 0.2em;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .searchbutton  {
+        font-size:1em;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .add-cocktail-link {
+        font-size: 1em;
+        margin: 0 auto;
+}
+
+@media screen and (max-width: 320px) {
+    #footer {
+        margin: 0.2em;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .cocktail-card {
+        width: 82%;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .card-title {
+        font-size: 1.4em;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .card-text {
+        font-size: 0.7em;
+    }
+}
