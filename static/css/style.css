@@ -42,13 +42,15 @@ body {
 }
 
 .searchbar {
-    font-size:1.8em;
     border-style: none;
     border-color: #fc9423;
     color: #ff3838;
+    font-size: 2em;
+    margin: 0 auto;
+    height: 1.8em;
 }
 
-.searchbutton {
+#searchbutton {
     border-style: none;
     background: #fff;
     color: #ff3838;
@@ -59,17 +61,11 @@ button:hover {
     color: #fc9423;
 }
 
-.header-break {
-    color: #ffffff;
-    font-size: 1.8em;
-    margin-left: 2em;
-    margin-right: 2em;
-}
-
 .add-cocktail-link {
     color: #ffffff;
     text-decoration: none;
     font-size: 1.8em;
+    margin: 0 auto;
 }
 
 .add-cocktail-link:hover {
@@ -304,12 +300,6 @@ footer {
 }
 
 @media screen and (max-width: 540px) {
-    .header-break {
-    display: none;
-}
-}
-
-@media screen and (max-width: 540px) {
     .searchbar {
         font-size:1.4em;
         width: 88%;
@@ -367,12 +357,6 @@ footer {
 @media screen and (max-width: 414px) {
     .form-header, .enquiry-header, .footer-header{
     font-size: 1.2em;
-}
-}
-
-@media screen and (max-width: 414px) {
-    .header-break {
-    display: none;
 }
 }
 
