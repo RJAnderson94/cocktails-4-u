@@ -144,6 +144,17 @@ button:hover {
     background-color: #ff3838;
 }
 
+/*------------------------ Add Cocktail Form */
+
+.cocktail-add {
+    background-color: #ffffff;
+    color: #ff3838;
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+}
+
+
 /* ------------------------  Enquiry Form*/
 
 .enquiry-section {
